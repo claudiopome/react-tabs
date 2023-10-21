@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+import { useState } from "react";
+
 import logo from "./logo.svg";
 import "./App.css";
-=======
-import { useState } from "react";
 import "./styles.css";
 
 const content = [
@@ -27,7 +26,6 @@ const content = [
 
 export default function App() {
   const [activeContentIndex, setActiveContentIndex] = useState(0);
->>>>>>> 29dbaf0 (Initial commit)
 
   return (
     <div>
